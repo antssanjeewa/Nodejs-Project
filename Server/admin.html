@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Database Project</title>
+</head>
+<body>
+	<header>
+		<h1>Database Project</h1>
+	</header>
+	<nav class="navigation">
+		<div class="select_users">
+			<h2><a href="#">Logged-in user's name</a></h2>
+		</div>
+		<ul class="users">
+			<li><a href="#">List of other users</a></li>
+			<li><a href="#">List of other users</a></li>
+			<li><a href="#">List of other users</a></li>
+		</ul>
+		<ul class="admin">
+			<li><a href="admin.html">Manage Users</a></li>
+			<li><a href="Movie_single.html">Manage Movies</a></li>
+		</ul>
+	</nav>
+
+	<section class="admin">
+		<div class="admin_users">
+			<h2>Manage users</h2>
+		</div>
+		<table class="admin_table">
+			<tr>
+				<th class="data_col">Frist name</th>
+				<th class="data_col">Last name</th>
+				<th class="admin_col">Insert/Delete</th>
+			</tr>
+			<tr class="dataraw">
+				<td><input class="data" type="text" name="fristname" value="Albert"></td>
+				<td><input class="data" type="text" name="lastname" value="smith"></td>
+				<td class="deletecell">Delete</td>
+			</tr>
+			<tr class="dataraw">
+				<td><input class="data" type="text" name="fristname" value="Alt"></td>
+				<td><input class="data" type="text" name="lastname" value="smel"></td>
+				<td class="deletecell">Delete</td>
+			</tr>
+			<tr class="dataraw">
+				<td><input class="newdata" type="text" name="fristname" value=""></td>
+				<td><input class="newdata" type="text" name="lastname" value=""></td>
+				<td class="insertcell">Insrt</td>
+			</tr>
+		</table>
+	</section>
+
+	<footer>
+		<p>Instant update database project<a href="#"></a></p>
+	</footer>
+</body>
+</html>
+
+
